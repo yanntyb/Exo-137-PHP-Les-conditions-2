@@ -29,6 +29,13 @@ echo "2.Est-ce un chat : ";
 
 // TODO mettre votre code ici
 
+if($animal === "Chien"){
+    echo "Oui";
+}
+elseif($animal === "Chat"){
+    echo "Non";
+}
+
 echo "<br><br>";
 
 //----------------------------------------
@@ -37,7 +44,11 @@ $chat = true;
 echo "3.Est-ce un chat : ";
 
 // TODO mettre votre code ici
-
+if($chat){
+    echo "Oui";
+}elseif(!$chat){
+    echo "non";
+}
 echo "<br><br>";
 
 
